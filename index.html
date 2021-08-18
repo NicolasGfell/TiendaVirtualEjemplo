@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+
+    <!-- (====> Style sheets <====)-->
+
+    <!-- (*** Font Awesome***) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- (*** Unicons ***)-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- (*** Owl Carousel CSS ***)-->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+
+    <!-- (*** Main CSS ***)-->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body class="hidden">
+
+    <!-- (====> // Preloader <====)-->
+    <div class="centrado">
+        <div class="loader">
+            <div class="face face1">
+                <div class="circle"></div>
+            </div>
+            <div class="face face2">
+                <div class="circle">
+                </div>
+            </div>
+            <span>Loading</span>
+        </div>
+    </div>
+
+    <!-- (====> // Navbar <====)-->
+    <nav class="navbar">
+        <div class="container">
+            <!-- (====> Navbar - Brand <====)-->
+            <div class="navbar-brand">
+                <img src="assets/img/logo.png" alt="ProductGamers">
+                <p>PGamersWeb</p>
+            </div>
+
+            <!-- (====> Navbar - Menu <====)-->
+            <ul id="navbar-menu">
+                <li class="home">
+                    <a href="index.html" class="navbar-link"><i class="uil uil-estate"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="product">
+                    <a href="pages/products.html" class="navbar-link"><i class="uil uil-scenery"></i>
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li class="services">
+                    <a href="pages/services.html" class="navbar-link"><i class="uil uil-briefcase-alt"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="about-us">
+                    <a href="pages/about-us.html" class="navbar-link"><i class="uil uil-user"></i>
+                        <span>About Us</span>
+                    </a>
+                </li>
+                <li class="contact">
+                    <a href="pages/contact.html" class="navbar-link"><i class="uil uil-message"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+                <li class="login">
+                    <a href="pages/login.html" class="navbar-link"><i class="uil uil-signin"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- (====> Navbar - Btn<====)-->
+            <div class="btn-menu">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- (====> Navbar // <====)-->
+
+    <!-- (====> // Section - Home <====)-->
+    <section id="home">
+        <div class="container">
+            <div class="flex content-position">
+                <div class="flex-presentation">
+                    <h1 class="title-section">PGamersWeb</h1>
+                    <p>¡Hola!, Somos una empresa orientada a la venta de productos gamers</p>
+                    <p>Si desea saber mas de nosotros <a href="sobre-nosotros.html">conozcanos...</a> </p>
+                </div>
+                <div class="flex-image">
+                    <img src="assets/img/home_image2.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- (====> Section - Home // <====)-->
+
+    <!-- (====> // Section - Products  <====)-->
+    <section class="padding-section" id="products">
+        <div class="container">
+            <h1 class="title-section">Productos</h1>
+
+            <h2 class="subtitle-section">Algunos de nuestros productos</h2>
+
+            <!-- (====> // Slider <====)-->
+            <div class="wrapper">
+                <div class="carousel owl-carousel">
+                    <!--==================== PROJECT 1 ====================-->
+                    <div class="project-card swiper-slide">
+                        <img src="../../../assets/img/product-1.png" alt="" class="project-img">
+                        <div class="project-description">
+                            <h2 class="project-title">Teclado Gamer Genius GX</h2>
+                            <span class="project-about">Teclado ergonomico y apto para diversos usos, resiste a salpicaduras y contiene teclado
+                                numerico.</span>
+                            <a href="#" class="project-btn" data-bs-toggle="modal" data-bs-target="#modal-1">
+                                Ver Producto <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 2 ====================-->
+                    <div class="project-card swiper-slide">
+                        <img src="../../../assets/img/product-2.png" alt="" class="project-img">
+                        <div class="project-description">
+                            <h2 class="project-title">Teclado Gamer Mecanino Philips</h2>
+                            <span class="project-about">Teclado con iluminacion de color gris, producto con una funcionalidad increible.</span>
+                            <a href="#" class="project-btn" data-bs-toggle="modal" data-bs-target="#modal-2">
+                                Ver Producto <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 3 ====================-->
+                    <div class="project-card swiper-slide">
+                        <img src="../../../assets/img/product-3.png" alt="" class="project-img">
+                        <div class="project-description">
+                            <h2 class="project-title">Teclado Gamer Mecanico Philips Reposa Muñecas</h2>
+                            <span class="project-about">Teclado Gamer con reposa muñecas con un diseño de calidad y una funcionalidad impresionante.</span>
+                            <a href="#" class="project-btn">
+                                Ver Producto <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECT 4 ====================-->
+                    <div class="project-card swiper-slide">
+                        <img src="../../../assets/img/product-4.png" alt="" class="project-img">
+                        <div class="project-description">
+                            <h2 class="project-title">Teclado Gamer Trust</h2>
+                            <span class="project-about">Teclado Gamer led muticolor, resistente a salpicaduras de agua.</span>
+                            <a href="#" class="project-btn" data-bs-toggle="modal" data-bs-target="#modal-4">
+                                Ver Producto <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="pages/products.html" class="button" id="btn-products">
+                <p>Mas Productos</p>
+                <i class="uil uil-angle-double-right"></i>
+            </a>
+
+        </div>
+    </section>
+    <!-- (====>  Section - Products // <====)-->
+
+    <!-- (====> // Section - Services  <====)-->
+    <section class="padding-section" id="services">
+        <div class="container">
+            <h1 class="title-section">Servicios</h1>
+
+            <h2 class="subtitle-section">Lo que ofrecemos</h2>
+
+            <!-- (====> // Grid - Services  <====)-->
+            <div class="grid">
+                <!-- (====> Card 1 - Services  <====)-->
+                <div class="card-service">
+                    <div class="card-header">
+                        <i class="uil uil-phone-alt"></i>
+                        <h1>Servicio al cliente</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae augue sit amet velit
+                            blandit tincidunt. Pellentesque ultrices placerat lectus, at dapibus urna condimentum
+                            gravida.</p>
+                    </div>
+                    <div class="icon-touch">
+                        <i class="uil uil-spin"></i>
+                    </div>
+                </div>
+                
+                <!-- (====> Card 2 - Services  <====)-->
+                <div class="card-service">
+                    <div class="card-header">
+                        <i class="uil uil-comment-lines"></i>
+
+                        <h1>Chat en vivo</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae augue sit amet velit
+                            blandit tincidunt. Pellentesque ultrices placerat lectus, at dapibus urna condimentum
+                            gravida.</p>
+                    </div>
+                    <div class="icon-touch">
+                        <i class="uil uil-spin"></i>
+                    </div>
+                </div>
+
+                <!-- (====> Card 3 - Services  <====)-->
+                <div class="card-service">
+                    <div class="card-header">
+                        <i class="uil uil-envelope-alt"></i>
+
+                        <h1>Correo de propaganda</h1>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae augue sit amet velit
+                            blandit tincidunt. Pellentesque ultrices placerat lectus, at dapibus urna condimentum
+                            gravida.</p>
+                    </div>
+                    <div class="icon-touch">
+                        <i class="uil uil-spin"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- (====> Grid - Services // <====)-->
+        </div>
+    </section>
+    <!-- (====> Section - Services //  <====)-->
+
+    <!-- (====> // Section - About Us  <====)-->
+    <section class="padding-section section-gray" id="about-us">
+        <div class="container">
+            <h1 class="title-section">Sobre nosotros</h1>
+
+            <h2 class="subtitle-section">Nuestra introduccion</h2>
+
+            <!-- (====> // Grid - About Us <====)-->
+            <div class="grid">
+                <!-- (====> // Grid Part - Image  <====)-->
+                <div class="grid-image">
+                    <img src="assets/img/tecladogif.gif" alt="">
+                </div>
+                <!-- (====> Grid Part - Image //  <====)-->
+
+                <!-- (====> // Grid Part - Presentation  <====)-->
+                <div class="grid-presentation">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum quis mi sit amet
+                        scelerisque. Vestibulum mollis ipsum sit amet metus sagittis, non tempus orci venenatis</p>
+
+                    <div class="flex">
+                        <div class="box-counter">
+                            <h3>08+</h3>
+                            <p>Años de experiencia</p>
+                        </div>
+                        <div class="box-counter">
+                            <h3>100+</h3>
+                            <p>Clientes</p>
+                        </div>
+                        <div class="box-counter">
+                            <h3>10+</h3>
+                            <p>Campañas</p>
+                        </div>
+                    </div>
+
+                    <a href="pages/about-us.html" target="_blank" class="button" id="btn-about">
+                        <span>Mas detalles</span>
+                        <i class="uil uil-file-info-alt"></i>
+                    </a>
+                </div>
+                <!-- (====> Grid Part - Presentation //  <====)-->
+            </div>
+            <!-- (====> Grid - About Us // <====)-->
+        </div>
+    </section>
+    <!-- (====> Section - About Us //  <====)-->
+
+    <!-- (====> // Block - Contact  <====)-->
+    <div id="contact">
+        <div class="container">
+            <div class="flex">
+                <div class="flex-description">
+                    <h1>Metodos de contacto</h1>
+                    <p>(+56) 982394329</p>
+                    <p>correo@gmail.com</p>
+                    <a href="pages/contact" class="button" id="btn-redirect-contact">
+                        <p>Contactenos</p>
+                        <i class="uil uil-message"></i>
+                    </a>
+                </div>
+                <div class="flex-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.5357286041926!2d-72.08030318412598!3d-36.61348927408905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966929db0e3869d1%3A0x48346094f3e00fb3!2sPje.%20Lago%20Rupanco%2C%20Chill%C3%A1n%2C%20%C3%91uble!5e0!3m2!1ses!2scl!4v1627860517511!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- (====> Block - Contact //  <====)-->
+
+    <!-- (====> // Section - Testimonials  <====)-->
+    <section class="padding-section" id="testimonials">
+        <div class="container">
+            <h1 class="title-section">Testimoniales</h1>
+
+            <h2 class="subtitle-section">Opiniones de clientes</h2>
+
+            <div class="wrapper">
+                <div class="carousel owl-carousel">
+                    <!--==================== PROJECT 1 ====================-->
+                    <div class="testimonial">
+                        <i class="fas fa-quote-right icon"></i>
+                        <div class="user">
+                            <img src="assets/img/users.png" alt="">
+                            <div class="user-info">
+                                <h3>john 1</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis dapibus sagittis. Aenean
+                            magna
+                            libero, auctor nec varius volutpat, pharetra quis eros. Etiam ornare nisi felis, at blandit risus
+                            placerat eu. Suspendisse vel dignissim nisi. In nisi magna, tincidunt non mi sed, lacinia eleifend
+                            diam.
+                            Maecena!! </p>
+                    </div>
+
+                    <!--==================== PROJECT 2 ====================-->
+                    <div class="testimonial">
+                        <i class="fas fa-quote-right icon"></i>
+                        <div class="user">
+                            <img src="assets/img/users.png" alt="">
+                            <div class="user-info">
+                                <h3>john 2</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis dapibus sagittis. Aenean
+                            magna
+                            libero, auctor nec varius volutpat, pharetra quis eros. Etiam ornare nisi felis, at blandit risus
+                            placerat eu. Suspendisse vel dignissim nisi. In nisi magna, tincidunt non mi sed, lacinia eleifend
+                            diam.
+                            Maecena!! </p>
+                    </div>
+
+                    <!--==================== PROJECT 3 ====================-->
+                    <div class="testimonial">
+                        <i class="fas fa-quote-right icon"></i>
+                        <div class="user">
+                            <img src="assets/img/users.png" alt="">
+                            <div class="user-info">
+                                <h3>john 3</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis dapibus sagittis. Aenean
+                            magna
+                            libero, auctor nec varius volutpat, pharetra quis eros. Etiam ornare nisi felis, at blandit risus
+                            placerat eu. Suspendisse vel dignissim nisi. In nisi magna, tincidunt non mi sed, lacinia eleifend
+                            diam.
+                            Maecena!! </p>
+                    </div>
+
+                    <!--==================== PROJECT 4 ====================-->
+                    <div class="testimonial">
+                        <i class="fas fa-quote-right icon"></i>
+                        <div class="user">
+                            <img src="assets/img/users.png" alt="">
+                            <div class="user-info">
+                                <h3>john 4</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis dapibus sagittis. Aenean
+                            magna
+                            libero, auctor nec varius volutpat, pharetra quis eros. Etiam ornare nisi felis, at blandit risus
+                            placerat eu. Suspendisse vel dignissim nisi. In nisi magna, tincidunt non mi sed, lacinia eleifend
+                            diam.
+                            Maecena!! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- (====>  Section - Testimonials // <====)-->
+
+    <!-- (====> // Footer  <<====)-->
+    <footer id="footer">
+        <p>Copyright&copy; 2021. @nicolasgfell</p>
+        <p>All Rights Reserved</p>
+    </footer>
+    <!-- (====> Footer //  <====)-->
+
+    <!-- (====> Scripts <====)-->
+
+    <!-- (*** JQuery ***)-->
+    <script type="application/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- (*** SweetAlert JS ***)-->
+    <script type="application/javascript" src="../assets/js/sweetalert2.min.js"></script>
+
+    <!-- (*** Owl Carrousel JS ***)-->
+    <script type="application/javascript" src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- (*** Main JS ***)-->
+    <script type="application/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
